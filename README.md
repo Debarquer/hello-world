@@ -17,5 +17,18 @@ ____
 
 ```c#
 if(a = b)
-  c();
+  d = c();
+  switch(d)
+    case 1:
+      DestroyHumanity();
+    break;
+    case b:
+      EradicateHumanity();
+    break;
+    case Alpha:
+      MassacreHumanity();
+      break;
+    default:
+      Void();
+      break;
 ```
